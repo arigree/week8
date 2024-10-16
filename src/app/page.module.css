@@ -1,0 +1,11 @@
+.zebraShowcaseImgs{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  margin: 20px;
+}
+.zebraShowcaseImgs div{
+  background-color: lightblue;
+  height: 300px;
+
+}

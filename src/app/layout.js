@@ -1,4 +1,6 @@
+import Nav from "@/components/Nav";
 import "./globals.css";
+
 
 export const metadata = {
   title: "Week 8",
@@ -8,7 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Nav />
+        {children}
+      </body>
     </html>
   );
 }
